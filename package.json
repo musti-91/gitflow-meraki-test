@@ -1,0 +1,25 @@
+{
+  "name": "meraki-gitflow-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "parcel watch css/style.css -d build --public-url ./",
+    "js": "parcel watch js/main.js -d build --public-url ./",
+    "website": "start npm run css && start npm run js && start live-server --watch=./*.html,./build/style.css,./build/main.js",
+    "dev": "parcel",
+    "prod": "parcel build index.html -d build --public-url ./",
+    "deploy": "firebase deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "postcss-modules": "^1.1.0"
+  }
+}
