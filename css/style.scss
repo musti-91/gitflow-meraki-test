@@ -15,6 +15,7 @@ html {
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   h1,
   h2 {
     font-family: "Open Sans", sans-serif;
@@ -36,3 +37,13 @@ html {
     background-color: rgb(41, 62, 255);
   }
 }
+=======
+}
+p {
+  color: red;
+  padding: 50px;
+  line-height: 26px;
+  font-size: 22px;
+  border: 1px solid #0f0;
+}
+>>>>>>> d7851ec3d7557af37f7138c5a52e352b1648a03d
