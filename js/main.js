@@ -27,5 +27,5 @@ function loginPage() {
 
 loginPage();
 //adding an alert on pageLoad
-alert("greetings from david");
+alert("greetings from Musti");
 console.log("another feature");
