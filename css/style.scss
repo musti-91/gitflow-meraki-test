@@ -43,8 +43,8 @@ html {
             width: 100%;
             overflow: hidden;
             &:last-child {
-              border-bottom-left-radius: 20px;
-              border-bottom-right-radius: 20px;
+              border-bottom-left-radius: 3px;
+              border-bottom-right-radius: 3px;
             }
             &:hover {
               background-color: red;
@@ -52,6 +52,7 @@ html {
           }
         }
         a {
+          border-radius: 3px;
           line-height: 75px;
           font-family: cursive;
           font-weight: 700;
