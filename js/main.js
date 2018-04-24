@@ -22,6 +22,7 @@ function loginPage() {
   </form>`;
 
   document.getElementById("nazif").insertAdjacentHTML("afterbegin", html);
+  console.log("test");
 }
 
 loginPage();
