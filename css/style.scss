@@ -17,6 +17,56 @@ html {
   background-color: rgba(255, 255, 255, 0.8);
   display: flex;
   flex-wrap: wrap;
+  nav {
+    width: 100%;
+    height: 75px;
+    ul {
+      display: flex;
+      li {
+        margin-right: 0.2%;
+        width: 19.8%;
+        float: left;
+        background-color: #333333;
+        height: 75px;
+        transition: all 500ms;
+        position: relative;
+        &:hover {
+          background-color: rgba(0, 26, 255, 0.5);
+          .sub {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .sub {
+          display: none;
+          li {
+            width: 100%;
+            overflow: hidden;
+            &:last-child {
+              border-bottom-left-radius: 3px;
+              border-bottom-right-radius: 3px;
+            }
+            &:hover {
+              background-color: red;
+            }
+          }
+        }
+        a {
+          border-radius: 3px;
+          line-height: 75px;
+          font-family: cursive;
+          font-weight: 700;
+          text-align: center;
+          display: block;
+          color: #ebf9fa;
+          text-transform: capitalize;
+          text-decoration: none;
+          border-bottom: 1px solid;
+          border-color: #333333;
+        }
+      }
+    }
+  }
   h1,
   h2 {
     font-family: "Open Sans", sans-serif;
